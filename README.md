@@ -1,1 +1,1 @@
-# This repository contains small JavaFX projects I have done
+# This repository contains small JavaFX projects I have created.
