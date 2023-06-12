@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Controller_Scene1">
+   <children>
+      <ChoiceBox fx:id="input_graphType" layoutX="19.0" layoutY="99.0" prefHeight="25.0" prefWidth="119.0" />
+      <TextField fx:id="input_sum" layoutX="19.0" layoutY="14.0" prefHeight="25.0" prefWidth="119.0" promptText="0" text="12000" />
+      <TextField fx:id="input_timeMonths" layoutX="88.0" layoutY="57.0" prefHeight="25.0" prefWidth="50.0" promptText="months" text="0" />
+      <TextField fx:id="input_timeYears" layoutX="18.0" layoutY="57.0" prefHeight="25.0" prefWidth="50.0" promptText="years" text="3" />
+      <TextField fx:id="input_interestRate" layoutX="19.0" layoutY="137.0" prefHeight="25.0" prefWidth="119.0" promptText="0" text="6" />
+      <Text layoutX="146.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum" />
+      <Text layoutX="145.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Period" wrappingWidth="62.0" />
+      <Text layoutX="144.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" wrappingWidth="126.0" />
+      <Text layoutX="145.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Interest Rate (Yearly)" wrappingWidth="111.0" />
+      <Button layoutX="168.0" layoutY="312.0" mnemonicParsing="false" onAction="#submitInput" prefHeight="38.0" prefWidth="78.0" text="Calculate" />
+      <TableView fx:id="table" layoutX="270.0" layoutY="18.0" prefHeight="325.0" prefWidth="457.0">
+        <columns>
+          <TableColumn fx:id="table_months" prefWidth="47.0" text="Month" />
+          <TableColumn fx:id="table_payment" prefWidth="137.0" text="Monthly payment" />
+            <TableColumn fx:id="table_interest" prefWidth="93.0" text="Interest" />
+            <TableColumn fx:id="table_credit" prefWidth="85.0" text="Credit" />
+            <TableColumn fx:id="table_sumLeft" prefWidth="94.0" text="Leftover Sum" />
+        </columns>
+      </TableView>
+      <Button layoutX="28.0" layoutY="319.0" mnemonicParsing="false" onAction="#exportToFile" prefHeight="25.0" prefWidth="102.0" text="Export to file" />
+      <TextField fx:id="input_postponeFrom" layoutX="19.0" layoutY="213.0" prefHeight="25.0" prefWidth="62.0" promptText="from" />
+      <TextField fx:id="input_postponeTo" layoutX="100.0" layoutY="213.0" prefHeight="25.0" prefWidth="62.0" promptText="to" />
+      <TextField fx:id="input_filterFrom" layoutX="18.0" layoutY="278.0" prefHeight="25.0" prefWidth="62.0" promptText="from" />
+      <TextField fx:id="input_filterTo" layoutX="100.0" layoutY="278.0" prefHeight="25.0" prefWidth="62.0" promptText="to" />
+      <CheckBox fx:id="postponeCheck" layoutX="18.0" layoutY="189.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Postone" />
+      <CheckBox fx:id="filterCheck" layoutX="18.0" layoutY="253.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Filter" />
+      <LineChart fx:id="chart" layoutX="19.0" layoutY="361.0" prefHeight="275.0" prefWidth="712.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

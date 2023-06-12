@@ -1,0 +1,216 @@
+Month:1
+ Monthly payment: 393.33
+ Interest: 60.0
+ Credit: 333.33
+ Leftover sum: 11666.67
+
+Month:2
+ Monthly payment: 391.66
+ Interest: 58.33
+ Credit: 333.33
+ Leftover sum: 11333.34
+
+Month:3
+ Monthly payment: 390.0
+ Interest: 56.67
+ Credit: 333.33
+ Leftover sum: 11000.01
+
+Month:4
+ Monthly payment: 388.33
+ Interest: 55.0
+ Credit: 333.33
+ Leftover sum: 10666.68
+
+Month:5
+ Monthly payment: 386.66
+ Interest: 53.33
+ Credit: 333.33
+ Leftover sum: 10333.35
+
+Month:6
+ Monthly payment: 385.0
+ Interest: 51.67
+ Credit: 333.33
+ Leftover sum: 10000.02
+
+Month:7
+ Monthly payment: 383.33
+ Interest: 50.0
+ Credit: 333.33
+ Leftover sum: 9666.69
+
+Month:8
+ Monthly payment: 381.66
+ Interest: 48.33
+ Credit: 333.33
+ Leftover sum: 9333.36
+
+Month:9
+ Monthly payment: 380.0
+ Interest: 46.67
+ Credit: 333.33
+ Leftover sum: 9000.03
+
+Month:10
+ Monthly payment: 378.33
+ Interest: 45.0
+ Credit: 333.33
+ Leftover sum: 8666.7
+
+Month:11
+ Monthly payment: 376.66
+ Interest: 43.33
+ Credit: 333.33
+ Leftover sum: 8333.37
+
+Month:12
+ Monthly payment: 375.0
+ Interest: 41.67
+ Credit: 333.33
+ Leftover sum: 8000.04
+
+Month:13
+ Monthly payment: 373.33
+ Interest: 40.0
+ Credit: 333.33
+ Leftover sum: 7666.71
+
+Month:14
+ Monthly payment: 371.66
+ Interest: 38.33
+ Credit: 333.33
+ Leftover sum: 7333.38
+
+Month:15
+ Monthly payment: 370.0
+ Interest: 36.67
+ Credit: 333.33
+ Leftover sum: 7000.05
+
+Month:16
+ Monthly payment: 368.33
+ Interest: 35.0
+ Credit: 333.33
+ Leftover sum: 6666.72
+
+Month:17
+ Monthly payment: 366.66
+ Interest: 33.33
+ Credit: 333.33
+ Leftover sum: 6333.39
+
+Month:18
+ Monthly payment: 365.0
+ Interest: 31.67
+ Credit: 333.33
+ Leftover sum: 6000.06
+
+Month:19
+ Monthly payment: 363.33
+ Interest: 30.0
+ Credit: 333.33
+ Leftover sum: 5666.73
+
+Month:20
+ Monthly payment: 361.66
+ Interest: 28.33
+ Credit: 333.33
+ Leftover sum: 5333.4
+
+Month:21
+ Monthly payment: 360.0
+ Interest: 26.67
+ Credit: 333.33
+ Leftover sum: 5000.07
+
+Month:22
+ Monthly payment: 358.33
+ Interest: 25.0
+ Credit: 333.33
+ Leftover sum: 4666.74
+
+Month:23
+ Monthly payment: 356.66
+ Interest: 23.33
+ Credit: 333.33
+ Leftover sum: 4333.41
+
+Month:24
+ Monthly payment: 355.0
+ Interest: 21.67
+ Credit: 333.33
+ Leftover sum: 4000.08
+
+Month:25
+ Monthly payment: 353.33
+ Interest: 20.0
+ Credit: 333.33
+ Leftover sum: 3666.75
+
+Month:26
+ Monthly payment: 351.66
+ Interest: 18.33
+ Credit: 333.33
+ Leftover sum: 3333.42
+
+Month:27
+ Monthly payment: 350.0
+ Interest: 16.67
+ Credit: 333.33
+ Leftover sum: 3000.09
+
+Month:28
+ Monthly payment: 348.33
+ Interest: 15.0
+ Credit: 333.33
+ Leftover sum: 2666.76
+
+Month:29
+ Monthly payment: 346.66
+ Interest: 13.33
+ Credit: 333.33
+ Leftover sum: 2333.43
+
+Month:30
+ Monthly payment: 345.0
+ Interest: 11.67
+ Credit: 333.33
+ Leftover sum: 2000.1
+
+Month:31
+ Monthly payment: 343.33
+ Interest: 10.0
+ Credit: 333.33
+ Leftover sum: 1666.77
+
+Month:32
+ Monthly payment: 341.66
+ Interest: 8.33
+ Credit: 333.33
+ Leftover sum: 1333.44
+
+Month:33
+ Monthly payment: 340.0
+ Interest: 6.67
+ Credit: 333.33
+ Leftover sum: 1000.11
+
+Month:34
+ Monthly payment: 338.33
+ Interest: 5.0
+ Credit: 333.33
+ Leftover sum: 666.78
+
+Month:35
+ Monthly payment: 336.66
+ Interest: 3.33
+ Credit: 333.33
+ Leftover sum: 333.45
+
+Month:36
+ Monthly payment: 335.0
+ Interest: 1.67
+ Credit: 333.33
+ Leftover sum: 0.12
+
