@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Scene1Controller">
+   <children>
+      <TableView fx:id="table1" layoutX="11.0" layoutY="8.0" onMouseClicked="#onCreateFile" prefHeight="331.0" prefWidth="485.0">
+        <columns>
+          <TableColumn fx:id="table1Column" prefWidth="480.0" text="Personal Data" />
+        </columns>
+      </TableView>
+      <TableView fx:id="table2" layoutX="504.0" layoutY="8.0" onMousePressed="#onDeleteFile" prefHeight="331.0" prefWidth="232.0">
+         <columns>
+            <TableColumn fx:id="table2Column" prefWidth="231.0" text="File" />
+         </columns>
+      </TableView>
+      <Button layoutX="587.0" layoutY="355.0" mnemonicParsing="false" onAction="#onDeleteAllFiles" text="Delete All" />
+      <Button layoutX="220.0" layoutY="355.0" mnemonicParsing="false" onAction="#onToFileAll" text="To File All" />
+   </children>
+</AnchorPane>

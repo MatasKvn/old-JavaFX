@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Scene1Controller">
+   <children>
+      <AnchorPane prefHeight="73.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="inputName" layoutX="13.0" layoutY="26.0" prefHeight="33.0" prefWidth="136.0" promptText="Student First Name" />
+            <TextField fx:id="inputSurname" layoutX="162.0" layoutY="26.0" prefHeight="33.0" prefWidth="136.0" promptText="Student Last Name" />
+            <Button layoutX="367.0" layoutY="22.0" mnemonicParsing="false" onAction="#onAddStudent" prefHeight="41.0" prefWidth="69.0" text="Add" />
+            <TextField fx:id="inputGroup" layoutX="309.0" layoutY="26.0" prefHeight="33.0" prefWidth="50.0" promptText="Group" />
+            <Text layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add student" wrappingWidth="98.30859375" />
+            <Button layoutX="442.0" layoutY="22.0" mnemonicParsing="false" onAction="#onEditStudent" prefHeight="41.0" prefWidth="69.0" text="Edit" />
+            <Button layoutX="517.0" layoutY="22.0" mnemonicParsing="false" onAction="#onDeleteStudent" prefHeight="41.0" prefWidth="69.0" text="Delete" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="600.0" prefHeight="170.0" prefWidth="200.0">
+         <children>
+            <DatePicker fx:id="datePicker" layoutX="14.0" layoutY="29.0" prefHeight="41.0" prefWidth="150.0" promptText="Attendance date" />
+            <Text layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add student attendance date" wrappingWidth="186.0" />
+            <Button layoutX="13.0" layoutY="104.0" mnemonicParsing="false" onAction="#onAddAttendance" prefHeight="25.0" prefWidth="143.0" text="Add attendance" />
+            <Button layoutX="13.0" layoutY="137.0" mnemonicParsing="false" onAction="#onRemoveAttendance" prefHeight="25.0" prefWidth="143.0" text="Remove attendance" />
+            <CheckBox fx:id="setAttendanceToWholeGroup" layoutX="13.0" layoutY="77.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="175.0" text="Add to all group members" />
+         </children>
+      </AnchorPane>
+      <TableView layoutX="10.0" layoutY="90.0" prefHeight="400.0" prefWidth="580.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="xddddddddd" />
+          <TableColumn prefWidth="283.0" text="For reference(not real table)" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="600.0" layoutY="184.0" prefHeight="166.0" prefWidth="200.0">
+         <children>
+            <DatePicker fx:id="filterStart" layoutX="14.0" layoutY="58.0" prefHeight="41.0" prefWidth="150.0" promptText="From:" />
+            <DatePicker fx:id="filterEnd" layoutX="14.0" layoutY="111.0" prefHeight="41.0" prefWidth="150.0" promptText="To:" />
+            <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#onFilter" prefHeight="25.0" prefWidth="120.0" text="Filter/Stop Filtering" />
+            <Button layoutX="14.0" layoutY="168.0" mnemonicParsing="false" onAction="#onSaveToPDF" text="Save to PDF" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="601.0" layoutY="404.0" prefHeight="82.0" prefWidth="167.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onOpenExcelFile" text="Open from File" />
+            <Button layoutX="14.0" layoutY="48.0" mnemonicParsing="false" onAction="#onSaveToExcel" prefHeight="25.0" prefWidth="95.0" text="Save to file" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
